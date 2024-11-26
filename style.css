@@ -1,0 +1,31 @@
+.grid-item{
+    background-color: bisque;
+    border:2px dotted black;
+    text-align: center;
+    
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr ;
+    grid-template-rows: 3fr 2fr 2fr ;
+
+    row-gap: 10px;
+    column-gap: 5px;
+
+    
+}
+
+#item1{
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#multicol{
+    columns: auto 25em;
+    column-gap: 5px;
+    column-rule: 2em solid black;
+
+}
